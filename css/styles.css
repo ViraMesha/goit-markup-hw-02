@@ -110,12 +110,12 @@ color: var(--accent-txt-cl);
         letter-spacing: 0.02em;
         color: #212121;
 }
-
 .header-link-current {
-    color: var(--accent-txt-cl);
+color: var(--accent-txt-cl);
 }
 
-.header-phone {
+.header-phone,
+.header-mail {
     color: var(--third-txt-cl);
 }
 
@@ -186,6 +186,11 @@ font-weight: 900;
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
+}
+
+.current {
+    background-color: #2196F3;
+    color: var(--secondary-txt-cl);
 }
 
 .portfolio-subtitle {
